@@ -23,6 +23,6 @@ PRODUCT_MODEL := moto g51 5G
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="fogo_g-user 15 V1UFNS35H.193-20-17 e46864-fa188 release-keys MV-304" \
-    BuildFingerprint=motorola/fogo_g/fogo:15/V1UFNS35H.193-20-17/e46864-fa188:user/release-keys \
-    DeviceProduct=fogo_g
+    BuildDesc="cypfq_g-user 12 S2RYAS32.58-13-12-5-1-7 e0667-c0bf07 release-keys" \
+    BuildFingerprint=motorola/cypfq_g/cypfq:12/S2RYAS32.58-13-12-5-1-7/e0667-c0bf07:user/release-keys \
+    DeviceProduct=cypfq_g
