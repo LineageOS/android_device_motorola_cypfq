@@ -5,4 +5,4 @@ ro.opa.device_model_id=motorola-cypfq
 ro.mot.build.customerid=global
 
 # NFC
-persist.nfc_cfg.config_file_name=libnfc-nci_SN220.conf
+persist.nfc_cfg.config_file_name=libnfc-nci-st.conf

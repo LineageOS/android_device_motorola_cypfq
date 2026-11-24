@@ -49,7 +49,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
     init.oem.fingerprint.overlay.sh \
-    init.oem.fingerprint2.sh
+    init.oem.fingerprint2.sh \
+    init.vendor.st21nfc.rc
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -60,7 +61,7 @@ $(call soong_config_set_bool,livedisplay_sysfs,enable_ab,true)
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc-service.nxp \
+    android.hardware.nfc-service.st \
     com.android.nfc_extras \
     Tag
 
