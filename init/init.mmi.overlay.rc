@@ -1,4 +1,6 @@
 on post-fs
+import /vendor/etc/init/hw/init.vendor.st21nfc.rc
+
 service vendor.ident-fps-overlay-sh /vendor/bin/init.oem.fingerprint.overlay.sh
     class core
     user root
